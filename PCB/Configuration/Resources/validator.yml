@@ -1,0 +1,6 @@
+parameters: 
+    validator.class: PCB\Services\ValidationService
+    
+services:
+    validator:
+       class: "%validator.class%"

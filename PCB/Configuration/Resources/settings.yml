@@ -1,0 +1,29 @@
+environment: production
+database:
+  default:
+    dbname:   dbname
+    user:     user
+    password: password
+    host:     host
+    driver:   pdo_mysql
+    
+memcache:
+  default:
+    host: 127.0.0.1
+    port: 11211
+        
+js: ~ 
+css: ~
+helpers: ~
+
+cache: ~  
+router: ~
+user: ~
+view: ~
+session: ~
+validator: ~  
+request: ~         
+template: ~
+doctrine: ~ 
+
+     

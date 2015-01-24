@@ -1,0 +1,19 @@
+{
+    "name": "phpcodebooster/package",
+    "description": "PHPCodebooster PHP Framework",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [ "framework", "pcb", "phpcodebooster" ],
+    "homepage": "http://www.phpcodebooster.com/",
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "autoload": {
+	"psr-0": { "PCB\\": "" }
+     },
+    "extra": {
+    	"branch-alias": {
+    	     "dev-master": "5.0-dev"
+    	}
+    }
+}

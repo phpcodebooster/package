@@ -1,0 +1,6 @@
+parameters: 
+    session.class: Symfony\Component\HttpFoundation\Session\Session
+    
+services:
+    session:
+       class: "%session.class%"

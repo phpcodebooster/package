@@ -1,0 +1,7 @@
+parameters: 
+    user.class: PCB\Services\UserService
+    
+services:
+   user:
+       class: "%user.class%"
+       arguments: ["@doctrine", "@session"]

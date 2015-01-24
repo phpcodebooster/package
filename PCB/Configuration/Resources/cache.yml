@@ -1,0 +1,7 @@
+parameters: 
+    cache.class: PCB\Services\CacheService
+    
+services:
+   cache:
+       class: "%cache.class%"
+       arguments: ["%pcb.root_dir%", "%pcb.settings%"]

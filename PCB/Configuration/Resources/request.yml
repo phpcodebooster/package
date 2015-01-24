@@ -1,0 +1,6 @@
+parameters: 
+    request.class: PCB\Services\RequestService
+    
+services:
+    request:
+       class: "%request.class%"

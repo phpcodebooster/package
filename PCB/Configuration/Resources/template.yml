@@ -1,0 +1,7 @@
+parameters: 
+    template.class: PCB\Services\TemplateService
+    
+services:
+   template:
+       class: "%template.class%"
+       arguments: ["@session", "%pcb.settings%", "%pcb.root_dir%"]

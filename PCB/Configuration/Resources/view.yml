@@ -1,0 +1,7 @@
+parameters: 
+    view.class: PCB\Services\ViewService
+    
+services:
+   view:
+       class: "%view.class%"
+       arguments: ["@template", "@=service('request').getRequest()"]

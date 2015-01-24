@@ -1,0 +1,7 @@
+parameters: 
+    router.class: PCB\Services\RouterService
+    
+services:
+   router:
+       class: "%router.class%"
+       arguments: ["@view", "@doctrine"]

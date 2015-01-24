@@ -1,0 +1,7 @@
+parameters: 
+    doctrine.class: PCB\Services\DoctrineService
+    
+services:
+   doctrine:
+       class: "%doctrine.class%"
+       arguments: ["%pcb.root_dir%", "%pcb.settings%"]
